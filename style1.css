@@ -1,0 +1,105 @@
+
+.form{
+    height: 400px;
+    width: 290px;
+    padding: 50px;
+    border: 3px solid rgb(96, 80, 80);
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(197, 226, 236);
+    border-radius: 6%;
+}
+
+.login{
+    padding-bottom: 50px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font: bold;
+}
+
+.name{
+    padding-right: 85%;
+    padding-bottom: 50px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font: bold;
+}
+
+.input{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font: bold;
+}
+
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 10%;
+    height: 6%;
+}
+
+.options{
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px ;
+}
+
+body{
+    background-image: url('123.jpg');
+    background-size: auto;
+}
+.password{
+    padding-left: 5px;
+}
+.btn {
+    /* background-color:    rgb(225, 225, 7); */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginBtn{
+    width: 50%;
+    height: 10%;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, rgb(151, 114, 238) , rgb(164, 52, 140));
+    font-size: 20px;
+    font-weight: 400;
+    color:rgb(25, 23, 23);
+    box-shadow: 0 8px 16px 0 rgb(117, 91, 164), 0 6px 20px 0 rgba(174, 90, 146, 0.853);
+}
+
+.gmail{
+    height: 50%;
+    width: 50%;
+    border-radius: 5%;
+    padding-left: 100px;
+}
+
+.ig{
+    padding-left: 10px;
+}
+
+.forgotpassword{
+    text-align: right;
+    margin: auto;
+    box-shadow: 5px grey;
+}
+.forgotpassword :hover{
+    background-color: rgb(188, 186, 186);
+    color: black;
+}
+
+footer{
+    text-align: right;
+    align-items: baseline;
+    padding-top: 11%;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style1.css">
+    
+</head> 
+
+<body>
+    <form action="/action_page.php">
+        <center>  
+        <div class="form" >
+            <div class="login">
+            <hr> LOGIN <hr>
+            </div>
+            <div class="input"  align="left">
+                <label for="name">User Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name">
+                <br><br>
+                
+                <div class="password">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <br><br>
+                </div>
+
+                <div class="forgotpassword">
+                    <button onclick="" type="button" id="forgotpassword" name="forgotpassword">
+                        forgot password?
+                    </button><br><br>
+                </div>
+                <center>
+                    <div class="btn" >
+                        <button onclick="if (document.getElementById('password').value == '12345') alert('Correct Password!'); else alert('Wrong Password!');"  type="button" id="loginBtn">Login</button>
+                    </div>
+                    <hr>OR<hr>
+                    Sign Up With......<br><br>
+                </center>
+                <div class="options">
+                    <div class="gmail">
+                        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S2013956706%3A1671121547617652&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AeAAQh4oK-6jP5o4F2AmvNcMaguivPUZor0piAoqRdiv1Hn-11qk6oIRuh6hgL2ucXP14srf8tBeYg"><img src="gmail.jpg" target="_blank" style="height: 20px; width: 30px; border-radius: 2px;"></a>
+                    </div>
+                    <div class="ig">
+                        <a href="https://www.instagram.com/accounts/login/"><img src="intsa.jpg" target="_blank" style="height: 30px; width: 30px; border-radius: 2px;"></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </center>
+    </form>
+    <footer>
+        mail us:<a href="mailto:login@gmail.com">login@gmail.com</a>
+    </footer>
+</body>
+</html>
